@@ -6,5 +6,4 @@ def my_select(collection)
     newList.yield(list[i])
     i = i + 1
   end
-  return newList
 end
