@@ -1,9 +1,9 @@
-def my_select(collection)
+def my_select(list)
   i = 0
   newList = []
   
   while i < list.size
-    newList.push(yield(list[i]))
+    newList.yield(list[i])
     i = i + 1
   end
   return newList
