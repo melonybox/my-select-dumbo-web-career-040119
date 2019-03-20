@@ -1,4 +1,4 @@
-def my_select(collection)
+def my_select(list)
   i = 0
   newList = []
   
