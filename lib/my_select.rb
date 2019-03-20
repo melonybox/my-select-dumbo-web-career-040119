@@ -3,7 +3,9 @@ def my_select(list)
   newList = []
   
   while i < list.size
-    newList.push(yield(list[i]))
+    if yield(list[i])
+      newList.push(list[i])
+    end
     i = i + 1
   end
   return newList
