@@ -3,7 +3,7 @@ def my_select(collection)
   newList = []
   
   while i < list.size
-    newList.select(yield(list[i]))
+    newList.yield(list[i])
     i = i + 1
   end
   return newList
